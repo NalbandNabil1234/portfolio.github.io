@@ -278,7 +278,7 @@ align-items: center;
     text-align: center;
     
     position: absolute;
-    top: 139px;
+    top: 60px;
     width: 100%;
     font-size: 50px;
 }
@@ -412,7 +412,7 @@ text-align: center;
 .last::before{
     content: "";
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background: #000;
     position: absolute;
     z-index: -1;
@@ -442,3 +442,5 @@ text-align: center;
    filter: invert();
    margin: 10px 6px;
 }
+
+ 
