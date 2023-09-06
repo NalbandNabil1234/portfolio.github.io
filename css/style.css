@@ -1,0 +1,444 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------------navbar starts here------------------------------------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar .left {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.navbar .left .logo {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 40px;
+
+}
+
+.navbar .left .logo:hover {
+    cursor: pointer;
+}
+
+.navbar .logo span {
+    color: #f9004d;
+}
+
+
+
+.navbar .mid ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar .mid ul li a {
+
+    text-decoration: none;
+    color: white;
+    margin: 0px 7px;
+
+}
+
+.navbar .mid ul li a:hover {
+    color: #f9004d;
+}
+
+.navbar .right {
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar .right .btn {
+
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 18px;
+    color: white;
+    background-color: #f9004d;
+    padding: 4px 12px;
+    border-radius: 18px;
+    border: 2px solid transparent;
+
+}
+
+.navbar .right .btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* ---------------------------------home section starts here---------------------------- */
+
+.home {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: url('../img/bg3.jpg') no-repeat center center/cover;
+
+    opacity: 0.99;
+    z-index: -1;
+}
+
+
+
+.home .main {
+
+    font-family: 'Baloo Bhai 2', cursive;
+    top: 38%;
+    left: 150px;
+    position: absolute;
+}
+
+.home .main h2 {
+    color: rgb(207, 175, 236);
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.home .main h1 {
+    color: white;
+    font-size: 44px;
+    letter-spacing: 5px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+
+.home .main h1 span {
+    color: #f9004d;
+}
+
+.home .main h3 {
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.inpbtn {
+    margin-top: 40px;
+    position: relative;
+}
+
+.main input {
+
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 325px;
+    height: 25px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.btn2 {
+
+    font-family: 'Baloo Bhai 2', cursive;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 25px;
+    bottom: 0px;
+    border: 2px solid transparent;
+    background: #f9004d;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 12px;
+    height: 29px;
+    width: 97px;
+}
+
+.btn2:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* ------------------------------------aboutus section starts here--------------------------------- */
+
+.aboutus {
+    font-family: 'Baloo Bhai 2', cursive;
+    display: flex;
+justify-content: center;
+align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+}
+
+.aboutus::before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.94;
+}
+
+.aboutus .img img {
+    height: 55vh;
+    width: 399px;
+   margin-left: 150px;
+   border: none;
+   opacity: 0.9;
+}
+
+.aboutme {
+    margin-left: 60px;
+  margin-right: 150px;
+}
+
+.aboutme h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.aboutme h3 {
+    color: white;
+    margin-bottom: 15PX;
+    font-size: 30px;
+}
+
+.aboutme h3 span {
+    
+    color: #f9004d;
+}
+
+.aboutme p{
+    font-size: 18px;
+    color: rgb(139, 103, 173);
+    line-height: 2;
+}
+
+.aboutme .btn3 {
+
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 22px;
+    border: 2px solid transparent;
+    background: #f9004d;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 12px;
+    height: 29px;
+    width: 97px;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* --------------------------------------------service section starts here--------------------------- */
+
+.service{
+    font-family: 'Baloo Bhai 2', cursive;
+    position: absolute;
+    height: 100vh ;
+    width: 100%;
+    top: 200%;
+}
+.service::before{
+    content: "";
+    width: 100%;
+    height: 90vh;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    opacity: .97;
+}
+
+.service h1{
+    color: white;
+    text-align: center;
+    
+    position: absolute;
+    top: 139px;
+    width: 100%;
+    font-size: 50px;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.webdevelopment{
+    background: #37353585;
+    margin: 25px;
+    border-radius: 22px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    border: 0px solid transparent;
+}
+
+.webdevelopment img{
+   height: 25px;
+   width: 25px;
+   filter: invert();
+
+}
+
+.webdevelopment img:hover{
+    color: #f9004d;
+    cursor: pointer;
+}
+
+.webdevelopment h3{
+    margin-top: 20px;
+color: white;
+text-align: center;
+margin-bottom: 20px;
+}
+.webdevelopment p{
+    color: rgb(139, 103, 173);
+text-align: center;
+}
+
+.webdevelopment .btn4{
+    font-family: 'Baloo Bhai 2', cursive;
+    
+    border: 2px solid transparent;
+    background: #f9004d;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 12px;
+    height: 29px;
+    width: 97px;
+    margin-top: 20px;
+}
+
+.btn4:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* ---------------------------------------------hireme section starts here-------------------------------- */
+
+.hireme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 290vh;
+    width: 100%;
+    height: 30vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.hireme::before{
+    content: "";
+    width: 100%;
+    height: 30vh;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.94;
+}
+
+.hireme .btn4{
+    font-family: 'Baloo Bhai 2', cursive;
+    
+    border: 2px solid transparent;
+    background: #f9004d;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 12px;
+    height: 29px;
+    width: 97px;
+    margin-top: 20px;
+    
+}
+
+.hireme h2{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+    font-size: 3vh;
+    
+}
+
+.btn4:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 320vh;
+    width: 100%;
+    height: 20vh;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.last::before{
+    content: "";
+    width: 100%;
+    height: 20vh;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.97;
+}
+
+.last h2{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.last span {
+    color: #f9004d;
+}
+
+.last p{
+    color: rgb(139, 103, 173);
+    line-height: 1.5;
+}
+
+.last .img img{
+    height: 20px;
+   width: 20px;
+
+   filter: invert();
+   margin: 10px 6px;
+}
